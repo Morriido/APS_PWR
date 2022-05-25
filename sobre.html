@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APS SOBRE</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    <div id="topo">
+        <div id="conteudo">
+            <a href="index.html#corpo" class="link">Inicio</a>
+            <a href="index.html#oque" class="link">O que é?</a>
+            <a href="index.html#danos" class="link">Danos a natureza</a>
+            <a href="index.html#saude" class="link">Danos a saúde</a>
+            <a href="index.html#lei" class="link">As leis</a>
+            <a href="index.html#reciclar" class="link">Como reciclar</a>
+            
+        </div>
+    </div>
+
+    <h1>Sobre nós</h1>
+    <p>Esse site foi feito com intuitos acadêmicos, visando contemplar os requisitos para a atividade pratica supervisionada do curso de ciências da computação da UNIP</p>
+    <p>os membros do grupo são:</p>
+    <p><b>Membro 1:</b></p><p>Eduardo Vinicius<br>18 anos<br>cursando Ciências da computação pela UNIP-Alphavile<br>residente em Cajamar</p>
+    <p><b>Membro 2:</b></p><p>Denis Santos<br>25 anos<br>cursando Ciências da computação pela UNIP-Alphavile<br>residente em Barueri</p>
+    <p><b>Membro 3:</b></p><p>Victor Jesus<br>22 anos<br>cursando Ciências da computação pela UNIP-Alphavile<br>residente em Carapicuíba</p>
+    <p><b>Membro 4:</b></p><p>Kaio Oliveira<br>18 anos<br>cursando Ciências da computação pela UNIP-Alphavile<br>residente em Santana de Parnaíba</p>
+    <p><b>Membro 5:</b></p><p>Nicolas Nery<br>19 anos<br>cursando Ciências da computação pela UNIP-Alphavile<br>residente em jandira</p>
+
+    <footer id="rodape">
+
+        Site Informativo livre de Direitos autorais. feito para questões acadêmicas.  <a href="sobre.html" id="sobre">Sobre nós</a>
+
+    </footer>
+
+    <script>
+        //script pra barra de rolagem seguir a tela
+        
+        window.onscroll = function() {myFunction()};
+        var header = document.getElementById("topo");
+        var sticky = header.offsetTop;
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+            </script>
+
+</body>
+</html>
